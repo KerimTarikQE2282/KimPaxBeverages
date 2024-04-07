@@ -48,7 +48,7 @@ export default function Page() {
         <div className='w-1/2 h-full bg-slate-700 relative left-10 top-20 h-5/6'>
           yo
         </div>
-        <div className='relative ml-52 top-32'>
+        <div className='relative ml-52 top-[25vh]'>
           <p className='text-4xl font-semibold'>KIM PAX Drinking Bottles</p>
           <br />
           <p className='text-2xl'>15.00$</p>
