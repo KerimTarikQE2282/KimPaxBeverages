@@ -6,8 +6,8 @@ import AreasOfFocus from './home/Components/AreasOfFocus'
 export default function page() {
   return (
     <div>
-       <Hero/>
-       <Second/>
+       <Hero/> 
+       <Second/> 
        <OurProducts/>
        <AreasOfFocus/>
     </div>
