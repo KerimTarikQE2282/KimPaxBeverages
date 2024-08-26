@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-  <body>
-    <nav className="absolute top-16 h-16 w-screen flex-col justify-between ">
+  <body className="bg-gray-50">
+    <nav className="relative top-16 h-16 w-[100vw] flex-col justify-between  max-w-full overflow-hidden mx-auto">
       <div className="absolute left-16">
         <p className="font-Inter font-bold text-2xl">KIM PAX</p>
       </div>
@@ -29,6 +29,89 @@ export default function RootLayout({
     </nav>
     {children}
   </body>
+  <footer className="bg-gray-900 text-gray-300 py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Logo and About */}
+          <div className="col-span-1">
+            <h3 className="text-2xl font-bold text-white mb-4">YourCompany</h3>
+            <p className="text-sm text-gray-400">
+              Empowering businesses through innovative solutions and exceptional service.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div className="col-span-1">
+            <h4 className="text-xl font-semibold text-white mb-4">Quick Links</h4>
+            <ul className="space-y-2">
+              <li><a href="#" className="hover:text-white">Home</a></li>
+              <li><a href="#" className="hover:text-white">About Us</a></li>
+              <li><a href="#" className="hover:text-white">Services</a></li>
+              <li><a href="#" className="hover:text-white">Blog</a></li>
+              <li><a href="#" className="hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+
+          {/* Contact Information */}
+          <div className="col-span-1">
+            <h4 className="text-xl font-semibold text-white mb-4">Contact Us</h4>
+            <p className="text-sm text-gray-400">
+              123 Business Avenue, Suite 456 <br />
+              City, Country 78910 <br />
+              Email: info@yourcompany.com <br />
+              Phone: +123 456 7890
+            </p>
+          </div>
+
+          {/* Newsletter Subscription */}
+          <div className="col-span-1">
+            <h4 className="text-xl font-semibold text-white mb-4">Subscribe</h4>
+            <p className="text-sm text-gray-400 mb-4">
+              Join our newsletter to stay updated with our latest news and offers.
+            </p>
+            <div className="flex">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="w-full px-4 py-2 rounded-l-md bg-gray-800 text-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+              <button className="px-4 py-2 bg-indigo-600 text-white rounded-r-md hover:bg-indigo-500">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="mt-10 border-t border-gray-700 pt-6 flex justify-center space-x-6">
+          <a href="#" className="text-gray-400 hover:text-white">
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M... (SVG Path for the icon)" />
+            </svg>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M... (SVG Path for the icon)" />
+            </svg>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M... (SVG Path for the icon)" />
+            </svg>
+          </a>
+          <a href="#" className="text-gray-400 hover:text-white">
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M... (SVG Path for the icon)" />
+            </svg>
+          </a>
+        </div>
+
+        {/* Copyright */}
+        <div className="mt-6 text-center text-gray-500">
+          &copy; 2024 YourCompany. All rights reserved.
+        </div>
+      </div>
+    </footer>
 </html>
   );
 }
