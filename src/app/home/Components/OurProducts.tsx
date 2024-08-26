@@ -5,11 +5,11 @@ import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Spline from '@splinetool/react-spline';
 function OurProducts() {
   return (
-    <div className='mb-36   w-[100vw]' >
+    <div className='mb-36  overflow-auto ' >
         <p className='font-semibold text-5xl w-[20vw] h-[10vh] relative left-[45vw] bottom-2 overflow-auto '>Our Products</p>
         <hr/>
-        <div className='flex flex-rows justify-evenly w-[100vw]'>
-        <CardContainer className="inter-var w-[30vw]">
+        <div className='flex flex-rows justify-evenly   overflow-auto'>
+        <CardContainer className="inter-var w-[30vw]  overflow-auto">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
@@ -31,8 +31,9 @@ function OurProducts() {
           className="w-full mt-4"
         >
           <div className='h-[30vh]'>
-            <Spline scene="https://prod.spline.design/LijujIxzk-qv-W7o/scene.splinecode" />
-            </div>
+          <Spline
+        scene="https://prod.spline.design/LijujIxzk-qv-W7o/scene.splinecode" 
+      />          </div>
              
           
         </CardItem>
@@ -79,7 +80,7 @@ function OurProducts() {
           className="w-full mt-4"
         >
           <div className='h-[30vh]'>
-            <Spline scene="https://prod.spline.design/LijujIxzk-qv-W7o/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/sOqUePAxsZQRNBdW/scene.splinecode"  />
             </div>
              
           
@@ -127,8 +128,9 @@ function OurProducts() {
           className="w-full mt-4"
         >
           <div className='h-[30vh]'>
-            <Spline scene="https://prod.spline.design/LijujIxzk-qv-W7o/scene.splinecode" />
-            </div>
+          <Spline
+        scene="https://prod.spline.design/UBlBk9GjKHJ2Jp9U/scene.splinecode" 
+      />         </div>
              
           
         </CardItem>
