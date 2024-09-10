@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import { CardBody, CardContainer, CardItem } from "./3d-card";
 import myimage from '../../Resources/photo-1441974231531-c6227db76b6e.avif'
 export function ThreeDCardDemo(props:any) {
     const model=props.model
   return (
-    <CardContainer className="inter-var w-[30vw]">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+    <CardContainer className="inter-var w-[30vw] bg-black">
+      <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 "
@@ -19,6 +19,7 @@ export function ThreeDCardDemo(props:any) {
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 "
+          
         >
           Hover over this card to unleash the power of CSS perspective
         </CardItem>

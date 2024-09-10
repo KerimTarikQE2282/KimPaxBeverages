@@ -5,13 +5,11 @@ import OurProducts from './Components/OurProducts'
 import AreasOfFocus from './Components/AreasOfFocus'
 export default function page() {
   return (
-    <div className=''>
-       {/* <Hero/> */}
-       {/* <Second/> */}
+      <div>
+       <Hero/> 
+       <Second/> 
        <OurProducts/>
        <AreasOfFocus/>
-       
-
     </div>
   )
 }

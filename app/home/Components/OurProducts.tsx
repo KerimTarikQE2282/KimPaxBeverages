@@ -1,5 +1,5 @@
 "use client"
-import { ThreeDCardDemo } from '@/app/components/ui/card'
+import { ThreeDCardDemo } from '../../components/ui/card'
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Spline from '@splinetool/react-spline';
@@ -10,7 +10,7 @@ function OurProducts() {
         <hr/>
         <div className='flex flex-rows justify-evenly   overflow-auto'>
         <CardContainer className="inter-var w-[30vw]  overflow-auto">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  bg-[#ffa808]">
         <CardItem
           translateZ="50"
           className="text-xl font-bold text-neutral-600 "
@@ -59,17 +59,17 @@ function OurProducts() {
     </CardContainer>
             {/*  */}
             <CardContainer className="inter-var w-[30vw]">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className=" relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border bg-[#b8c2ef] ">
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 "
+          className="text-xl font-bold text-white "
         >
           Make things float in air
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 "
+          className="text-white text-sm max-w-sm mt-2 "
         >
           Hover over this card to unleash the power of CSS perspective
         </CardItem>
@@ -90,7 +90,7 @@ function OurProducts() {
             translateZ={20}
             translateX={-40}
             as="button"
-            className="px-4 py-2 rounded-xl text-xs font-normal "
+            className="px-4 py-2 rounded-xl text-xs font-normal text-white"
           >
             Try now →
           </CardItem>
@@ -107,17 +107,17 @@ function OurProducts() {
     </CardContainer>
     {/*  */}
     <CardContainer className="inter-var w-[30vw]">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-[#fc75a2] relative group/card  dark:hover:shadow-2xl dark:hover:shadow-green-500/[0.1]  dark:border-white/[0.2] border-black/[0.1]  sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
-          className="text-xl font-bold text-neutral-600 "
+          className="text-xl font-bold text-white "
         >
           Make things float in air
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 "
+          className="text-white text-sm max-w-sm mt-2 "
         >
           Hover over this card to unleash the power of CSS perspective
         </CardItem>
@@ -139,7 +139,7 @@ function OurProducts() {
             translateZ={20}
             translateX={-40}
             as="button"
-            className="px-4 py-2 rounded-xl text-xs font-normal "
+            className="px-4 py-2 rounded-xl text-xs font-normal text-white "
           >
             Try now →
           </CardItem>
