@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
   <body className="bg-gray-50">
-    <nav className="relative top-16 h-16 w-[100vw] flex-col justify-between  max-w-full overflow-hidden mx-auto">
+    <nav className="relative top-10 h-16 w-[100vw] flex-col justify-between  max-w-full overflow-hidden mx-auto">
       <div className="absolute left-16">
         <p className="font-Inter font-bold text-2xl">KIM PAX</p>
       </div>

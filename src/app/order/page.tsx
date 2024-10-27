@@ -38,14 +38,14 @@ export default function Page() {
           width: '96vw',
           height: '90vh',
           marginLeft: '2vw',
-          marginTop: '4vh',
+          marginTop: '2vh',
           borderRadius: '50px',
           display: 'flex',
           flexDirection: 'row',
         }}
         elevation={10}
       >
-        <div className='w-1/2 h-full bg-slate-700 relative left-10 top-20 h-5/6'>
+        <div className='w-1/2  bg-slate-700 relative left-10 top-10 h-5/6'>
           yo
         </div>
         <div className='relative ml-52 top-[25vh]'>
